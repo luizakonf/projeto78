@@ -30,11 +30,11 @@ export default class StarMapScreen extends Component {
                         placeholder="Digite sua longitude"
                         placeholderTextColor="white"
 
-                         onChangeText={(text) => {
-                             this.State({
-                                 longitude: text
-                             })
-                         }}
+                        //onChangeText={(text) => {
+                        //    this.State({
+                        //        longitude: text
+                        //    })
+                        //}}
 
                         // onChangeText={(text) => {
                         //     this.setState(
@@ -48,11 +48,11 @@ export default class StarMapScreen extends Component {
                         //     })
                         // }}
 
-                        // onChangeText={(text) => {
-                        //     this.setState({
-                        //         longitude: text
-                        //     })
-                        // }}
+                         onChangeText={(text) => {
+                             this.setState({
+                                 longitude: text
+                             })
+                         }}
                     />
 
                     <TextInput
